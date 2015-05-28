@@ -1,0 +1,311 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #343434; 
+  height: 100%;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px; 
+}
+
+.navbar-fixed-top {
+  background-color: #F7484E;
+  border-color: transparent;
+  border-radius: 0px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  margin: 0px;
+ }
+
+a {
+  color: white;
+  text-decoration: none;
+ }
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 16px;
+  font-size: 18px; 
+}
+
+ul.nav.navbar-nav li a:hover {
+  background-color: rgba(245, 245, 245, 0.36);
+  border-bottom: 2px solid #fff;
+  color: #fff;
+ }
+
+.navbar-brand {
+  padding: 15px 123px;
+  font-size: 32px;
+ }
+
+.navbar-nav {
+  float: right;
+  margin: 0 9%; 
+}
+
+.container-fluid {
+  padding: 0px;
+  height: 100%;
+ }
+
+.banner {
+  background-image: url(../img/ballet2.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.texto {
+  font-size: 1.8em;
+  margin-top: 5%; 
+}
+
+.text-center {
+  text-align: center; 
+}
+
+.separador {
+  text-align: center;
+   }
+
+.separador img {
+  width: 20%;
+  margin: 5%; 
+}
+
+.boton {
+  padding: 2%;
+  margin: 0 auto 5%;
+  background-color: #F7484E;
+  width: 28%;
+  border-radius: 5px;
+  font-size: 20px;
+   }
+
+.boton a {
+  color: #fff;
+  text-decoration: none;
+ }
+ .img-profesores-1 {
+  position: relative;
+}
+
+.fila-img-profesores{
+  margin: 0;
+  width: 100%;
+  .img-profesores{
+    padding: 0;
+    border: 1px solid white;
+    .box1 {
+      overflow: hidden;
+      cursor: default;
+      position: relative;
+      img {
+        position:relative;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.view-first {
+  img { 
+    transition: all 0.2s linear;
+  }
+  .overlay{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.51); 
+    transition: all 0.4s ease-in-out
+  }
+}
+.contenido-frase p {
+  font-family: "MuseoSans-dos";
+  font-size: 25px;
+  text-align: center;
+  color: grey;
+}
+
+.view-first:hover{
+  img{
+        transform: scale(1.1);
+      }
+  .overlay{
+    opacity: 1;
+  }
+}
+
+.boton2 {
+  position: absolute;
+  width: 29%;
+  height: 55px;
+  border-radius: 4px;
+  background-color: #F7484E;
+  text-align: center;
+  left: 36%;
+  bottom: 0px;
+}
+
+.span2 {
+  padding: 7px 0px;
+  span{
+    font-size: 30px;
+    color: white;
+    font-family: "OpenSans-CondLight";
+  }
+}
+
+
+
+/*SECCIÒN IMG-MAPA*/
+
+.fondo {
+  background-image: url("img/fondodance.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.filarow {
+  padding-bottom: 5%;
+}
+
+.box2{
+  margin:0 5%;
+    .nombre-sede {
+      width: 100%;
+      height: 42px;
+      background-color:#F7484E;;
+    h2{
+      padding: 4px;
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+
+iframe {
+  width: 100%;
+  height: 250px;
+}
+
+.texto-sede {
+  height: 70px;
+  margin: -4px auto 0px;
+  background-color: grey;
+  border-top: 3px solid rgba(0, 0, 0, 0.701961);
+  p {
+    font-size: 19px;
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+  }
+}
+
+
+
+/*.dance {
+  background-image: url(img/foto2.jpg);
+  height: 54%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.dance2 {
+  background-image: url(img/FOTO7.png);
+  height: 54%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}*/
+
+.class {
+  padding: 0px;
+  border: 2px solid rgba(63, 27, 217, 0.08); 
+}
+
+.coders {
+  position: relative;
+  padding: 0;
+ }
+
+.bt-coders {
+  width: 30%;
+  position: absolute;
+  padding: 1%;
+  font-size: 1.5em;
+  bottom: 0px;
+  right: 35%;
+  letter-spacing: 1px;
+  background-color: #F7484E;
+  border-radius: 3px;
+  color: #fff; 
+}
+
+.text-center {
+  text-align: center;
+ }
+.text-center{
+  text-align: center;
+}
+.fondo2{
+  background-image: url("../img/img.gif");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  width: 100%;
+}
+
+/*contactanos*/
+.contacto {
+  padding: 4%; 
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F7484E;
+  border-color: #F7484E; 
+}
+
+.footer {
+  background-color: #222;
+  z-index: 10px;
+   }
+
+.datos-final {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  padding-bottom: 12px;
+  padding-top: 12px; 
+}
+
+.creadoras {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top: 1px solid rgba(136, 136, 136, 0.26); 
+}
+
+.creadoras a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+
+
